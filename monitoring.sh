@@ -30,4 +30,7 @@ df -h
 
 echo "####################################"
 
+echo "Monitoring Completed Succesfully"
+echo "Date:" &(date)
+
 
