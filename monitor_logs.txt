@@ -1,0 +1,175 @@
+  UNIT                                           LOAD   ACTIVE SUB     DESCRIPTION
+  acpid.service                                  loaded active running ACPI event daemon
+  chrony.service                                 loaded active running chrony, an NTP client/server
+  cron.service                                   loaded active running Regular background program processing daemon
+  dbus.service                                   loaded active running D-Bus System Message Bus
+  fwupd.service                                  loaded active running Firmware update daemon
+  getty@tty1.service                             loaded active running Getty on tty1
+  irqbalance.service                             loaded active running irqbalance daemon
+  ModemManager.service                           loaded active running Modem Manager
+  multipathd.service                             loaded active running Device-Mapper Multipath Device Controller
+  networkd-dispatcher.service                    loaded active running Dispatcher daemon for systemd-networkd
+  polkit.service                                 loaded active running Authorization Manager
+  rsyslog.service                                loaded active running System Logging Service
+  serial-getty@ttyS0.service                     loaded active running Serial Getty on ttyS0
+  snap.amazon-ssm-agent.amazon-ssm-agent.service loaded active running Service for snap application amazon-ssm-agent.amazon-ssm-agent
+  snapd.service                                  loaded active running Snap Daemon
+  ssh.service                                    loaded active running OpenBSD Secure Shell server
+  systemd-journald.service                       loaded active running Journal Service
+  systemd-logind.service                         loaded active running User Login Management
+  systemd-networkd.service                       loaded active running Network Management
+  systemd-resolved.service                       loaded active running Network Name Resolution
+  systemd-udevd.service                          loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service                                loaded active running Disk Manager
+  unattended-upgrades.service                    loaded active running Unattended Upgrades Shutdown
+  user@1000.service                              loaded active running User Manager for UID 1000
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+24 loaded units listed.
+top - 07:57:33 up  1:52,  3 users,  load average: 0.00, 0.00, 0.00
+Tasks: 120 total,   1 running, 119 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    908.7 total,    258.7 free,    337.6 used,    437.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    571.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   24864  13440   8520 S   0.0   1.4   0:17.26 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftir+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.91 rcu_sch+
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.01 rcu_exp+
+     18 root      rt   0       0      0      0 S   0.0   0.0   0:00.03 migrati+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kprobe-+
+     20 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     23 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     24 root      rt   0       0      0      0 S   0.0   0.0   0:00.03 migrati+
+     25 root      20   0       0      0      0 S   0.0   0.0   0:00.11 ksoftir+
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     29 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     30 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     31 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     33 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
+     34 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     35 root      20   0       0      0      0 I   0.0   0.0   0:01.07 kworker+
+     36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     37 root      20   0       0      0      0 S   0.0   0.0   0:01.67 kcompac+
+     39 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     40 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepa+
+     41 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     45 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-a+
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     48 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     51 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     52 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     54 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
+     55 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     56 root      20   0       0      0      0 S   0.0   0.0   0:01.91 kswapd0
+     57 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
+     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     59 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     60 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     61 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     63 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     65 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     66 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     67 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     69 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     80 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     81 root      20   0       0      0      0 S   0.0   0.0   0:00.67 jbd2/nv+
+     82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    117 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker+
+    145 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    146 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    253 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    258 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    288 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/nv+
+    289 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    516 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker+
+    518 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    583 message+  20   0    9240   4976   3528 S   0.0   0.5   0:02.96 dbus-da+
+    597 root      20   0   46808  20440   5292 S   0.0   2.2   0:00.21 network+
+    611 root      20   0   18264   6804   5420 S   0.0   0.7   0:00.60 systemd+
+    666 root      20   0    8280   2392   2192 S   0.0   0.3   0:00.00 agetty
+    684 root      20   0    8236   2276   2092 S   0.0   0.2   0:00.01 agetty
+    715 root      20   0  126208  19316   4700 S   0.0   2.1   0:00.18 unatten+
+   1343 root      20   0 1832820  16520   7712 S   0.0   1.8   0:02.44 amazon-+
+   1403 ubuntu    20   0   21876   8036   5744 S   0.0   0.9   0:01.51 systemd
+   1406 ubuntu    20   0   22732   3408   1396 S   0.0   0.4   0:00.00 (sd-pam)
+   1411 root      20   0   18112   5372   3332 S   0.0   0.6   0:00.01 sshd-se+
+   1606 ubuntu    20   0   18408   4044   1716 S   0.0   0.4   0:00.00 sshd-se+
+   1626 ubuntu    20   0    2852   2044   1900 S   0.0   0.2   0:00.00 sftp-se+
+   2141 root      20   0       0      0      0 I   0.0   0.0   0:00.55 kworker+
+   4356 root      20   0       0      0      0 I   0.0   0.0   0:00.47 kworker+
+  16855 ubuntu    20   0    8308   3924   3476 S   0.0   0.4   0:00.01 dbus-da+
+  33915 root      20   0    2824   1232   1084 S   0.0   0.1   0:00.00 acpid
+  33916 root      20   0    7488   2524   2276 S   0.0   0.3   0:00.01 cron
+  33920 root      20   0    2908   1276   1156 S   0.0   0.1   0:00.03 chronyd+
+  33927 root      20   0   80796   3432   3144 S   0.0   0.4   0:00.14 irqbala+
+  33935 root     -11   0  279340   8908   6704 S   0.0   1.0   0:00.28 multipa+
+  33963 _chrony   20   0   20264   3616   2828 S   0.0   0.4   0:00.09 chronyd
+  33975 _chrony   20   0   11936   1888   1240 S   0.0   0.2   0:00.00 chronyd
+  45143 root      20   0 1885744  22544  10004 S   0.0   2.4   0:00.32 snapd
+  45618 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+  45654 root      19  -1   50356  12836  11544 S   0.0   1.4   0:00.08 systemd+
+  45657 systemd+  20   0   22284  10548   7980 S   0.0   1.1   0:00.11 systemd+
+  45666 polkitd   20   0  381780   9092   6544 S   0.0   1.0   0:00.17 polkitd
+  45668 root      20   0  543212  11672   9260 S   0.0   1.3   0:00.15 udisksd
+  45671 root      20   0  447584  24672  18980 S   0.0   2.7   0:00.35 fwupd
+  45678 root      20   0   37044   9200   6184 S   0.0   1.0   0:00.12 systemd+
+  45701 root      20   0  391084  10088   8124 S   0.0   1.1   0:00.08 ModemMa+
+  45707 syslog    20   0  220304   4080   3188 S   0.0   0.4   0:00.05 rsyslogd
+  45716 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+  45717 systemd+  20   0   21200   8940   7384 S   0.0   1.0   0:00.08 systemd+
+  46176 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
+  46192 root      20   0       0      0      0 I   0.0   0.0   0:00.13 kworker+
+  46198 root      20   0   10720   7596   6420 S   0.0   0.8   0:00.02 sshd
+  46492 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  46498 root      20   0       0      0      0 I   0.0   0.0   0:00.04 kworker+
+  46504 root      20   0   18132  11680   9632 S   0.0   1.3   0:00.01 sshd-se+
+  46524 root      20   0   18132  11752   9704 S   0.0   1.3   0:00.01 sshd-se+
+  46624 ubuntu    20   0   18428   7672   5340 S   0.0   0.8   0:00.00 sshd-se+
+  46652 ubuntu    20   0   18432   7808   5472 S   0.0   0.8   0:00.14 sshd-se+
+  46653 ubuntu    20   0    2852   2024   1896 S   0.0   0.2   0:00.00 sftp-se+
+  46654 ubuntu    20   0    9280   5560   3844 S   0.0   0.6   0:00.08 bash
+  46728 ubuntu    20   0    7960   3516   3244 S   0.0   0.4   0:00.00 monitor+
+  46733 ubuntu    20   0   10964   5296   3244 R   0.0   0.6   0:00.00 top
+               total        used        free      shared  buff/cache   available
+Mem:           908Mi       337Mi       258Mi       2.8Mi       437Mi       571Mi
+Swap:             0B          0B          0B
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.7G  2.7G  4.0G  41% /
+tmpfs            455M     0  455M   0% /dev/shm
+tmpfs            182M  928K  181M   1% /run
+efivarfs         128K  3.3K  120K   3% /sys/firmware/efi/efivars
+tmpfs            455M     0  455M   0% /tmp
+/dev/nvme0n1p13  989M  164M  759M  18% /boot
+/dev/nvme0n1p15  105M  6.3M   99M   7% /boot/efi
+none             1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+none             1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs             91M  8.0K   91M   1% /run/user/1000
+none             1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
