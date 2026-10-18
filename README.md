@@ -186,7 +186,7 @@ Add this entry to run the script **every day at 12:00 AM (midnight)**
 and append output to the log:
 
 ``` cron
-0 0 * * * /home/ubuntu/shell-assignment/monitoring.sh >> /home/ubuntu/shell-assignment/monitor_logs.txt 2>&1
+0 0 * * * /home/ubuntu/shell-assignment/monitoring.sh >> /home/ubuntu/shell-assignment/monitor_logs.txt 
 ```
 
 Make sure the script is actually located at
